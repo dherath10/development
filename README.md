@@ -1,1 +1,3 @@
-# development
+# Development
+
+Guide for the software development project
