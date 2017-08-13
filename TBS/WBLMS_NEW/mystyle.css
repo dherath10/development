@@ -1,0 +1,35 @@
+.in {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	color: #000;
+	font-weight: bold;
+}
+.co {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	background-color: #930;
+}
+.mar {
+	margin-left: 10px;
+	text-align: right;
+	
+}
+.links_color em {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight:normal;
+}
+.seperator {
+	font-weight: normal;
+}
+.links_color em strong .heading {
+	font-size: medium;
+}
+.in1 {
+	font-size: medium;
+	list-style-type: circle;
+	color: #CC6600;
+	font-weight: normal;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: normal;
+}

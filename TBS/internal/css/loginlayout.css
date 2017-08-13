@@ -1,0 +1,22 @@
+body{
+    margin: 0px;    
+}
+
+div#loginmain{
+    width: 100%;
+}
+div#loginheader{
+    height: 100px;
+    text-align: center; font-size: 36px; text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 15px;
+    color: #fff;    
+}
+div#logincontent{
+    min-height: 500px;
+}
+div#loginfooter{
+    height: 100px; color: #fff;
+    font-style: italic; font-size: 12px; text-align: center;
+}
+.al{text-align: center}

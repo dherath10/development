@@ -1,0 +1,24 @@
+@import url(webdashboard.css);
+body{
+    margin: 0px;
+}
+#newmainheader{width: 100%}
+#newheader{height: 50px; background-color: #367FA9;}
+#newcontents{min-height: 800px;}
+#newsidebar{width: 15%; min-height: inherit; float: left;
+            background-color: #222D32;}
+#right{width: 85%; float: right;}
+#headerleft{color: #fff; padding-top: 5px; float: left;
+            padding-left: 50px; font-size: 18px; font-family: sans-serif;
+            font-weight: bolder; width: 60%}
+#headerright{float: right; width: 40%; padding-top: 10px; color: white;
+             text-align: right; padding-right: 50px;}
+a.a1:link{color: white}
+a.a1:visited{color: white}
+a.a1:hover{color: white}
+a.a1:active{color: white}
+ul.list1{list-style: none; padding-left: 5px}
+
+.list1 li{padding-bottom: 15px;}
+.ali{text-align: center; padding-top: 30; color: white}
+.al1{text-align: center;}

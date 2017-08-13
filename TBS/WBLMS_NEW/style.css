@@ -1,0 +1,22 @@
+body
+{
+font-family:Georgia, "Times New Roman", Times, serif;
+}
+ul
+{
+list-style: none;
+margin: 0px;
+width: 330px;
+}
+li
+{
+display: block;
+padding: 5px;
+
+border-bottom: 0px solid #367;
+}
+
+#display{
+margin:0px;	
+text-align:left;
+}

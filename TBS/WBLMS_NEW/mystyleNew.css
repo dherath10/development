@@ -1,0 +1,121 @@
+@charset "utf-8";
+a:link {
+	color: #CC6600;
+}
+
+a:link {
+	color: #CC6600;
+	text-decoration: none;
+}
+a:hover {
+	color: #663333;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	
+	
+}
+.item {
+	color: #C90;
+	font-weight: bold;
+	font-size: large;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	width: 130px;
+	float: left;
+	position: absolute;
+	left: 123px;
+	top: 277px;
+}
+#footer {
+	color: #000000;
+}
+#footer {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #000;
+}
+#footer {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+}
+.item {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #965604;
+	font-weight: bolder;
+	text-transform: none;
+	font-size: 24px;
+	font-style: oblique;
+	background-image: url(file:///D|/Program%20files/xampp/htdocs/Project/NSIS/Images/Wall%20Texture%20Bkgd--Yellow.jpg);
+	padding: 1px;
+}
+.heading {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 20px;
+	font-style: oblique;
+	font-weight: bold;
+	background-image: url(file:///D|/Program%20files/xampp/htdocs/Project/NSIS/Images/Wall%20Texture%20Bkgd--Yellow.jpg);
+	padding: 2px;
+	border-radius: 8px;
+	height: 6mm;
+}
+.body_p_justify {
+	text-align: justify;
+}
+.body_p u {
+	font-weight: bold;
+	font-size: 18px;
+}
+.body_p {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #804000;
+}
+.body_p {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #804000;
+	font-weight:normal;
+	font-style: normal;
+}
+.body_p1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #804000;font-size:10;
+}
+u {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	color: #804000;
+	text-decoration: underline;
+}
+.edit_table {
+	color: #CCCCCC;
+	border-color: #CCC;
+}
+.edit_table {
+	color: #D2D2D2;
+}
+.alert {
+	font-size: 14px;
+	font-style: italic;
+	color: red;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+.alert1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	color: #C60;
+}
+body{
+	background-image:url(images/Wall%20Texture%20Bkgd--Yellow-edtd.jpg);
+}.bodyLinks {
+	color: #804040;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: large;
+	font-weight:bold;
+}
+.search {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	color: #666;
+	font-weight:bold;
+}
+.mar{
+margin:10px;
+text-align:justify;	
+	
+}

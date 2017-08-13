@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Record" value="name:Item_ID;datatype:int,name:Publisher_ID;datatype:int,name:Call_No;datatype:string,name:Item_Type_ID;datatype:int,name:Title;datatype:string,name:Publ_Date;datatype:date,name:Publ_Place;datatype:string,name:Edition;datatype:string,name:Remarks;datatype:blob,name:Item_Image;datatype:string" />
+</info>

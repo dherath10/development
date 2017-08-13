@@ -1,0 +1,690 @@
+body{
+    margin: 0;
+    padding: 0;
+    padding-top: 0;
+    
+}
+
+.menu_block{
+    //z-index: 999;
+    //position: relative;
+    background: url(images/menu_bg.png) ;
+    background: 0 0 repeat-x #d8d8db;
+    height: 70px;
+       
+}
+#navigation{
+    width: 100% ;
+    position: absolute;
+    top: 0;
+    
+}
+
+
+.menu_block nav {
+	position: relative;
+	font-family: 'Marvel', sans-serif;
+       
+        
+}
+
+nav>.my-menu {//look the attributes here
+	//z-index: 990;
+	text-align: center;
+	position: relative;
+}
+
+.my-menu>li {
+	position: relative;
+	display: inline-block;
+	font-size: 24px;
+	line-height: 20px;
+
+}
+
+.my-menu>li>a{
+	font-weight: bold;
+	text-align: center;
+	color: #313030;
+	display: block;
+        padding: 9px 25px;
+        
+
+}
+
+.current_link{
+    background-color: #fdc903;
+}
+
+/*----------------------------------------- Home --------------------------------------------------------------------------------*/
+
+.level2{
+    text-align: center; 
+    width: 100%;
+    height: 200px;
+    //background-color: #ff0066;
+}
+
+.level3_img{
+    position: relative;
+    background-size:cover;
+    width: 100%;
+    height: 372.5px;
+   // background-image: url(images/slide.jpg)
+   
+    
+}
+
+.banner_section{
+   height: 400px;
+}
+
+.banner_main{
+	display:inline;
+	float: left;
+	position: relative;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.banner_main_1{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color:#e5e5e7;
+    margin: 40px 0 70px;
+    overflow: hidden;
+    position: relative;
+    left: 75px;
+    top: 30px;
+    padding: 0 30px 24px 40px;
+    height: 300px;
+    width: 300px;
+    margin-bottom: 25px;
+    border-radius: 30px;
+}
+
+.banner_img{
+    padding-top: 15px;
+    float: left;
+}
+.f_s_div{
+    position: relative;
+    top: 15px;
+    left: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 50px;
+    
+}
+#f_s_s_div{
+     padding-left: 10px;
+    color: #fdc903;
+}
+
+.contact_bar{
+    width: 100%;
+    height: 350px;
+}
+
+#contact_bar_div1{
+   
+    margin-top: 25px;
+    position: relative;
+    top: 50px;
+    width: 100%;
+    height: 220px;
+    background-color: #fdc903;
+}
+
+#contact_bar_div_img1{
+    position: relative;
+    top: 70px;
+    left: 120px;
+}
+#contact_bar_div_img2{
+    position: relative;
+    top: 113px;
+    left: -68px;
+}
+#contact_bar_div_img3{
+    position: relative;
+    top: 70px;
+    right: -700px;
+}
+#contact_bar_div_img4{
+    position: relative;
+    top: 113px;
+    right: -511.5px;
+}
+#contact_bar_div2_img{
+    position: relative;
+    top: -20px;
+    left: 350px;
+}
+.contact_bar_no_div{
+    position: absolute;
+}
+.contact_bar_no{
+    position: relative;
+    top: -140px;
+    left: 440px;
+    
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 50px;
+    color: #ffffff;
+}
+.contact_bar_note{
+    position: relative;
+    top: -185px;
+    left: 495px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 50px;
+    color: #ffffff;
+}
+.image_gallery_div{
+    background-color:#0000ff; 
+    width: 100%;
+    height: 900px;
+}
+#image_gallery_imgs{
+    margin-top: 20px;
+    margin-left: 95px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+   
+}
+#image_gallery_div_h1{
+    color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.footer_div{
+    margin-top: 50px;
+    padding-top: 50px;
+    background-color:#666666;
+    width: 100%;
+    height: 150px;
+}
+#footer_div_img{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 50%;
+    top: 75px;
+    border-radius: 50px;
+    
+}
+
+
+#footer_div_text1{
+    color: #e5e5e7;
+    position: absolute;
+    left: 80px;
+    margin-top: 5px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+}
+
+#footer_div_text1_p_span1{
+   color: #fdc903;
+}
+#footer_div_text1_p_span2{
+   font-size: 12px;
+}
+
+#footer_div_text2{
+    position: absolute;
+    left: 80px;
+    margin-top: 40px;
+    color: #ffffff;
+}
+#footer_div_text3_contact{
+    position: absolute;
+    right: 65px;
+    margin-top: -40px;
+    color: #e5e5e7;
+    font-size: 35px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#fb_logo_text{
+    position: absolute;
+    left: 485px;
+    margin-top: 45px;
+    color: #e5e5e7;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+   
+}
+
+/* -------------------------------------------About Us------------------------------------------------------------------*/
+
+.text1_div{
+    width: 100%;
+    height: 275px;
+    //background-color: #66ccff;
+}
+#div_text1{
+    width: 50%;
+    height: 250px;
+    position: absolute;
+    left: 3px;
+    border: 3px solid #009999  ;
+    //left: 0px;
+    background-color: #ccccff;
+   
+}
+#div_text2{
+    width: 48.5%;
+    height: 250px;
+    position: absolute;
+    left: 48.9%;
+    margin-left: 25px;
+    margin-right: 75px;
+    right: 3px;
+    border: 3px solid #009999  ;
+    background-color: #ccccff;
+    
+}
+#div_span_text1_head{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    position: absolute;
+    left: 3%;
+    margin-top: 10px;
+    //background-color: #ff3366;
+}
+
+#div_span_text1_img{
+    float: left;
+    margin-right: 35px;
+    position: relative;
+    left: 20px;
+    top: 15px;
+    width: 150px;
+    height: 150px;
+    border: 3px solid #0000ff;
+}
+#div_p{
+    width: 665px;
+    
+}
+#div_p_text1{
+   font-family: "Trebuchet MS", Helvetica, sans-serif;
+   font-size: 15px;
+   line-height: 25px;
+   text-align:justify;
+}  
+#div_span_text2_head{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    margin-left: 100px;
+    position: relative;
+    top: -2px;
+    
+    
+}
+#div_span_text2_img{
+    float: left;
+    position: relative;
+    left: 27px;
+    top: 35px;
+    width: 150px;
+    height: 150px;
+    border: 3px solid #0000ff;
+}
+#div_text2_ul{
+    position: absolute;
+    left: 250px;
+    margin-top: 5px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 15px;
+    color: #000000;
+    line-height: 25px;
+    
+}
+
+.div_text_vm_main{
+    position: absolute;
+    margin-top: 12px;
+    width: 100%;
+    height: 300px;
+   //background-color: #00b3ee;
+    
+}
+#div_text_v{
+    margin-top: 25px;
+    width: 50%;
+    height: 200px;
+    margin-left: 3px;
+    border: 3px solid #0033ff;
+    background-color: #00ffcc;
+}
+#div_text_m{
+    width: 48.6%;
+    height: 200px;
+    position: absolute;
+    right: 0px;
+    margin-top: -206px;
+    margin-right: 2px; 
+    border: 3px solid #0033ff;
+    background-color: #00ffcc;
+
+}
+#div2_text_vm{
+    width: 100%;
+    height: 40px;
+    background-color: #ccff66;
+    text-align: center;
+}
+#div_text_vm_heading{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-variant: small-caps;
+    font-size: 20px;
+    font-weight:bold;
+    position: absolute;
+    margin-left: -50px;
+    margin-top: 3px;
+    //background-color: #ccff66;
+}
+.vm_text{
+    text-align: center;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 23px;
+    font-variant: small-caps;
+    position: relative;
+    top: -10px;
+}
+
+.testi_div1{
+    margin-top: 20px;
+    //background-color: #ff3399;
+    width: 100%;
+    height: 400px;
+       
+}
+
+.testi_div2{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #ffff33; //#e5e5e7;
+    margin: 40px 0 70px;
+    overflow: hidden;
+    position: relative;
+    left: 75px;
+    top: -40px;
+    padding: 0 30px 24px 40px;
+    height: 300px;
+    width: 300px;
+    margin-bottom: 25px;
+    border-radius: 30px;
+}
+
+#testi_h2_mainhead{
+    margin-left: 10px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 30px;
+    font-variant: small-caps;
+    //font-weight: 100px;
+}
+#testi_p_first{
+    margin-left: 10px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 23px;
+    text-align: center;
+    //font-variant: small-caps;
+    //font-weight: 100px;
+}
+#testi_p2_first{
+    text-align: right;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 15px;
+}
+#testi_p2_second{
+    text-align: right;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 15px;
+    position: relative;
+    top: 31px;
+}
+#testi_p2_third{
+    text-align: right;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 15px;
+    position: relative;
+    top: 3px;
+}
+
+/*----------------------------------------------------- Our Packages ---------------------------------------------------------*/
+
+.pkg1_main_div{
+    width: 100%;
+    height: 250px;
+    background-color:#00ffcc;
+    
+}
+.pkg_all_main_div{
+    margin-top: 20px;
+    width: 100%;
+    height: 250px;
+    background-color:#00ffcc;
+    
+}
+#pkg_all_div2_img{
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.pkg_all_div2_1{
+    text-align: justify;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 20px;
+    width: 65%;
+    height: 175px;
+    margin-left: 350px;
+    margin-top: -165px;
+}
+.pkg_all_div2_2{
+    text-align: justify;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 20px;
+    width: 65%;
+    height: 175px;
+    margin-left: 350px;
+    position: relative;
+    top: 20px;
+}
+
+.pkg_heads{
+    text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 25px;
+    position: relative;
+    top: 7px;
+}
+.pkg_table{
+    margin-top: 20px;
+    margin-left: 1%;
+    background-color: #ffff33;
+    width: 98%;
+    border: 5px solid black;
+    
+}
+
+.pkg_th{
+    text-align: center;
+     border: 2px solid black;
+     width: 50%;
+}
+.pkg_tds{
+    text-align: center;
+     border: 2px solid black;
+     width: 50%;
+}
+
+/*------------------------------------------Logins and Bookings--------------------------------------------------------------*/
+
+.quick_book_maindiv{
+    width: 100%;
+    height: 520px;
+    //background-color: #66ff66;
+        
+        
+}
+#quick_book_space{
+    position: relative;
+    top: 20px;
+}
+.quick_book_div2{
+    width: 50%;
+    height: 500px;
+    position: relative;
+    top: 10px;
+    margin-left: 25px;
+    //border: 1px solid black;
+}
+
+.quick_book_form{
+    width: 100%;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    //border: 2px solid blue;
+}
+
+#date_tr{
+    border: 2px solid black;
+}
+
+#destination_text{
+    font-weight: bold;
+}
+
+#quick_book_legend{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.login_maindiv{
+    width:35%;
+    height: 200px;
+    margin-left: 60%;
+    position: relative;
+    top: -490px;
+       
+    //border: 2px solid black;
+}
+
+#login_fieldset{
+    height: 175px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.login_fieldset_legend_text{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+/*------------------------------------------Contact Us--------------------------------------------------------------*/
+
+.contact_div{
+    width: 100%;
+    height: 250px;
+    background-color: #33ffff;
+}
+.contact_div2{
+    width: 33%;
+    height: 250px;
+    //background-color: #33ffff;
+    border-right: 2px solid black;
+}
+.contact_Email_div2{
+    width: 33%;
+    margin-left: 450px;
+    position: relative;
+    top: -22px;
+    height: 250px;
+    //background-color: #33ffff;
+    border-right: 2px solid black;
+}
+.contact_Fax_div2{
+    width: 33%;
+    margin-left: 899px;
+    height: 230px;
+    position: relative;
+    top: -43px;
+    //background-color: #33ffff;
+    
+}
+#contact_tele_div{
+    width: 450px;
+    height: 230px;
+    position: relative;
+    top: 20px;
+    
+}
+#contact_Email_div{
+    width: 450px;
+    margin-top: -248px;
+    height: 230px;
+    position: relative;
+    top: 20px;
+    
+}
+#contact_Fax_div{
+    width: 450px;
+    margin-top: -248px;
+    height: 230px;
+    position: relative;
+    top: 20px;
+}
+#tel_email_fax_head{
+    text-align: center;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 20px;
+    font-variant: small-caps;
+}
+#tel_email_fax_div{
+    margin-top: 18px;
+    text-align: center;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #0033cc;
+}
+#tel_span{
+    color: red;
+    font-weight: bold;
+}
+
+.feedback_div{
+    width: 100%;
+    height: 350px;
+    //background-color: #ff3366;
+    margin-top: 30px;
+}
+.feedback_div2{
+    width: 75%;
+    position: relative;
+    top: 15px;
+    margin-left: 175px;
+    //border: 2px solid black;
+}
+#fieldset_msg{
+    height: 300px;
+}
+
+#feedback_form{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 15px;
+}
+#feedback_form_msg{
+    padding: 30px 25px;
+}
