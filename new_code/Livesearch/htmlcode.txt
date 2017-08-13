@@ -1,0 +1,2 @@
+<input name="title" id="title" class="form-control" autocomplete="off" >
+                               <div id="display"></div>
