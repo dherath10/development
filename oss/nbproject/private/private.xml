@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/opt/lampp/htdocs/oss/system/view/login.php</file>
+            <file>file:/opt/lampp/htdocs/oss/system/model/loginmodel.php</file>
+            <file>file:/opt/lampp/htdocs/oss/system/controller/logincontroller.php</file>
+            <file>file:/opt/lampp/htdocs/oss/system/common/dbconnection.php</file>
+            <file>file:/opt/lampp/htdocs/oss/system/view/logout.php</file>
+            <file>file:/opt/lampp/htdocs/oss/system/common/commonQuery.php</file>
+            <file>file:/opt/lampp/htdocs/oss/system/view/dashboard.php</file>
+        </group>
+    </open-files>
+</project-private>
