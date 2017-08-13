@@ -1,0 +1,36 @@
+<html>
+<head>
+    <title>allwon only numbers in textbox using JavaScript</title>
+    <script language="Javascript" type="text/javascript">
+ 
+        function onlyNos(e, t) {
+            try {
+                if (window.event) {
+                    var charCode = window.event.keyCode;
+                }
+                else if (e) {
+                    var charCode = e.which;
+                }
+                else { return true; }
+                if (charCode > 31 && (charCode < 48 || charCode > 57)&&charCode !=46) {
+                    return false;
+                }
+                return true;
+            }
+            catch (err) {
+                alert(err.Description);
+            }
+        }
+ 
+    </script>
+</head>
+<body>
+    <table align="center">
+        <tr>
+            <td>
+                <input type="text" onKeyPress="return onlyNos(event,this);" />
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

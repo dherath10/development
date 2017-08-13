@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Login</title>
+<script type="text/javascript">
+function computearea(){
+	var area=(this.radius*this.radius)*3.14;
+	return area;	
+}
+function computediameter(){
+	
+	var diameter=(this.radius*2);
+	return diameter;	
+
+}
+function circle(r){
+	this.radius=r;
+	this.area=computearea;
+	this.diameter=computediameter;	
+}
+
+
+var mycircle=new circle(20);
+alert(mycircle.area());
+alert(mycircle.diameter());
+</script>
+</head>
+
+<body>
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+<script type="text/javascript">  
+  function isAlpha(xStr){  
+    var regEx = /^[a-zA-Z0-9\-]+$/;  
+    return xStr.match(regEx);  
+  }  
+    
+  alert(isAlpha("ABC-123"));  
+  alert(isAlpha("ABC1#$^%*&23"));  
+  alert(isAlpha("ABC123$"));  
+  alert(isAlpha("ABC 123"));  
+  alert(isAlpha("ABC123"));  
+   
+</script>  

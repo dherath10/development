@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE school [
+	<!ELEMENT school (name,no,street,city,country)>
+	<!ELEMENT name ( #PCDATA)>
+	<!ELEMENT no ( #PCDATA)>
+	<!ELEMENT street ( #PCDATA)>
+	<!ELEMENT city ( #PCDATA)>
+	<!ELEMENT country ( #PCDATA)>
+]>
+<school>
+	<name>Esoft</name>
+	<no>255</no>
+	<street>Galle Road</street>
+	<city>Colombo</city>
+	<country>Sri Lanka</country>
+</school>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Canvas</title>
+</head>
+<body>
+<canvas id="myCanvas" width="200" height="100"
+style="border:1px solid #00FF00;">
+</canvas>
+<script type="text/javascript">
+
+var c=document.getElementById("myCanvas");
+var ctx=c.getContext("2d");
+ctx.fillStyle="#FF0000";
+ctx.fillRect(0,0,150,75);
+
+var d=document.getElementById("myCanvas");
+var cty=d.getContext("2d");
+cty.moveTo(0,0);
+cty.lineTo(200,100);
+cty.stroke();
+
+var e=document.getElementById("myCanvas");
+var cte=e.getContext("2d");
+cte.beginPath();
+cte.arc(95,50,40,0,2*Math.PI);
+cte.stroke();
+</script>
+
+</body>
+</html>

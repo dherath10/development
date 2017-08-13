@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Email Validation</title>
+<script type="text/javascript">
+function check(){
+	var pat=/^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+	if(!document.login.email.value.match(pat)){
+		alert("Invalid Email Address ");
+		document.login.email.focus();
+		document.login.email.select();
+		return false;
+	}
+	return true;
+}
+</script>	
+</head>
+
+<body>
+<form method="post" name="login" action="PHP_validation/validation_email.php" onsubmit="return check()">
+<table width="577" border="0" align="center">
+          
+          
+           <tr>
+             <td colspan="2" align="center" class="staff"><h2>Email Validation</h2></td>
+           </tr>
+           <tr>
+             <td colspan="2" align="center" class="staff">&nbsp;</td>
+           </tr>
+           <tr>
+            <td width="208" align="right" class="staff"><h3>Email Address </h3></td>
+            <td width="359" class="view1"><input name="email" type="text" id="pno" value="" size="30"  />
+            &nbsp;</td>
+          </tr>
+          <tr>
+            <td class="view1">&nbsp;</td>
+            <td class="view1">&nbsp;</td>
+          </tr>
+          
+          <tr>
+            <td colspan="2" align="center" class="view1"><label>
+              <input name="Add" type="submit" class="staff" value="Submit" />
+            </label></td>
+          </tr>
+          <tr>
+            <td colspan="2" align="center" class="lin">&nbsp;</td>
+      </tr>
+        </table>
+ </form>
+</body>
+</html>

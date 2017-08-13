@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<libary name="esoft">
+	<books isbn="1111">
+		<name>Computer Network</name>
+		<autor country="UK">M.M. Peter</autor>
+		<description>Network course</description>
+		<price>234</price>
+	</books>
+	<books isbn="2222">
+		<name>Python Programming</name>
+		<autor country="USA">C. Tylar</autor>
+		<description>Beginers </description>
+		<price>444</price>
+	</books>
+	<books isbn="3333">
+		<name>Data Base</name>
+		<autor country="Australia">T. Redly</autor>
+		<description>DB System</description>
+		<price>267</price>
+	</books>
+</libary>

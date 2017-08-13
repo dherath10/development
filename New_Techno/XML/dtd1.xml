@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE bookstore [
+	<!ELEMENT bookstore(shipping+, book+ )>
+	<!ELEMENT shipping ( duration)>
+	<!ALLLIST shipping shipId ID #REQUIRED>
+	<!ELEMENT book ( #PCDATA )>
+	<!ALLLIST BOOK shippedBY IDREF #IMPLIED>
+	<!ELEMENT duration ( #PCDATA )>
+]>
+<bookstore>
+	<shipping shipId="s1">
+		<duration>2 to 4 days</duration>
+	</shipping>
+	<book shippedBy="s1">
+		The basic Book of XML
+	</book>
+</bookstore>

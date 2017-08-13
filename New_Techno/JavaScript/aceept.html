@@ -1,0 +1,19 @@
+<html>
+<head>
+<script>
+var checker = document.getElementById('checkme');
+var sendbtn = document.getElementById('sendNewSms');
+checker.onchange = function(){
+	if(this.checked){
+		sendbtn.disabled = true;
+	} else {
+		sendbtn.disabled = false;
+	}
+	
+}
+</script>
+</head>
+<body>
+<form>
+<input type="checkbox" id="checkme"/><input type="submit" name="sendNewSms" class="inputButton" id="sendNewSms" value=" Send " />
+</form></body>

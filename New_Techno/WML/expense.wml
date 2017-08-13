@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.2//EN"
+"http://www.wapforum.org/DTD/wml12.dtd">
+<!-- WML Application for Expense -->
+<wml>
+<card title="Expense" id="card1">
+<p align="center"><b>WML Application for Expenses</b></p>
+<p> 
+<!-- To display Elements -->
+Expense ID: <input name="eid" size="4" format="*N"/>
+Details of Expense :  <input name="doe" size="12" />
+Value :  <input name="val" size="8" format="*N"/> 
+
+</p>
+<p> Selection of Frequency :
+ <select name="fre">
+  <option value="Daily">Daily</option>
+  <option value="Weekly">Weekly</option>
+  <option value="Monthly">Monthly</option>
+ </select>
+  <anchor>
+      <go method="get" href="process.php">
+          <postfield name="eid" value="$(eid)"/>
+          <postfield name="doe" value="$(doe)"/>
+          <postfield name="val" value="$(val)"/>
+      </go>
+      Submit Data
+    </anchor>
+</p>
+</card>
+
+</wml>

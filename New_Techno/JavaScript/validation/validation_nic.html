@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>NIC Validation</title>
+<script type="text/javascript">
+function check(){
+	var pat=/^[0-9]{9}[vV]$/;
+	if(!document.login.nic.value.match(pat)){
+		alert("Invalid NIC Number ");
+		document.login.nic.focus();
+		document.login.nic.select();
+		return false;
+	}
+	return true;
+}
+</script>	
+</head>
+
+<body>
+<form method="post" name="login" action="PHP_validation/validation_nic.php" onsubmit="return check()">
+<table width="500" border="0" align="center">
+          
+          
+           <tr>
+             <td colspan="2" align="center" class="staff"><h2>NIC Number Validation</h2></td>
+           </tr>
+           <tr>
+             <td colspan="2" align="center" class="staff">&nbsp;</td>
+           </tr>
+           <tr>
+            <td width="558" align="right" class="staff"><h3>NIC </h3></td>
+            <td width="515" class="view1"><input name="nic" type="text" id="nic" value="" size="30"  />
+            &nbsp;</td>
+          </tr>
+          <tr>
+            <td class="view1">&nbsp;</td>
+            <td class="view1">&nbsp;</td>
+          </tr>
+          
+          <tr>
+            <td colspan="2" align="center" class="view1"><label>
+              <input name="Add" type="submit" class="staff" value="Submit" />
+            </label></td>
+          </tr>
+          <tr>
+            <td colspan="2" align="center" class="lin">&nbsp;</td>
+      </tr>
+        </table>
+ </form>
+</body>
+</html>

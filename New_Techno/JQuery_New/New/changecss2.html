@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<title>jQuery</title>
+<script type="text/javascript" src="jquery-1.8.1.min.js">
+</script>
+</head>
+<body>
+<h1>Removing CSS</h1>
+<img id="exImage" src="document.png" alt="Document" class="borderClass" />
+<style type="text/css">
+	.borderClass{
+		border:1px solid green;
+	}
+
+</style>
+<script type="text/javascript">
+$(document).ready(function(){
+	$("#exImage").removeClass("borderClass");
+});
+</script>
+</body>
+</html>
+

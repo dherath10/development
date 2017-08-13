@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<school
+xmlns="http://www.esoft.lk"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.esoft.lk schoolSchema.xsd">
+	<name>Esoft</name>
+	<no>255</no>
+	<street>Galle Road</street>
+	<city>Colombo</city>
+	<country>Sri Lanka</country>
+</school>

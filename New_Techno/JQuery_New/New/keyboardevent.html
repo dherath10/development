@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<title>KeyBoard Event</title>
+<script type="text/javascript" src="jquery-1.8.1.min.js">
+</script>
+</head>
+<body>
+<h1>Keyup</h1>
+<hr>
+<form action="#">
+<textarea rows="10" cols="20" id="message" name="message">
+</textarea>
+<p>Characters remaining: <span id="remaining">50</span></p>
+</form>
+<script type="text/javascript">
+$(document).ready(function() {
+var maxCharacters = 50;
+$("#message").on("keyup",function() {
+var currentVal = $("#message").val().length;
+var totalRemaining = maxCharacters - currentVal;
+$("#remaining").text(totalRemaining);
+});
+});
+</script>
+</body>
+</html>

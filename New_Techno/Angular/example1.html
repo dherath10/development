@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html ng-app="">
+<head>
+<link rel="stylesheet" href = "bootstrap-3.3.1/dist/css/bootstrap.min.css">
+<script src= "angular.min.js"></script>
+</head>
+
+<body>
+<div ng-app="" ng-init="firstName='Daminda Herath'" ng-controller="personController">
+ 	<p>Name: <input type="text" ng-model="name"></p>
+ 	<p ng-bind="name">&nbsp;</p>
+
+
+<p>The name is <span ng-bind="firstName"></span></p>
+<p>My first expression: {{ 5 + 5 }}</p>
+
+<div ng-app="" ng-controller="personController">
+
+First Name: <input type="text" ng-model="fName" placeholder="First Name"><br>
+Last Name: <input type="text" ng-model="lName" placeholder="Last Name"><br>
+<br>
+Full Name: {{fName + " " + lName}}
+
+</div>
+
+<script>
+function personController($scope) {
+    $scope.fName = "Daminda";
+    $scope.lName = "Herath";
+}
+</script>
+<div ng-app="" ng-init="quantity=5;cost=5">
+
+<p>Total in dollar: <span ng-bind="quantity * cost"></span></p>
+
+</div>
+<div ng-app="" ng-init="points=[1,15,19,2,40]">
+
+<p>The points are <span ng-bind="points[2]"></span></p>
+
+</div>
+<div ng-app="" ng-init="names=[
+{name:'Jani',country:'Norway'},
+{name:'Hege',country:'Sweden'},
+{name:'Kai',country:'Denmark'}]">
+
+<ul>
+  <li ng-repeat="x	in names">
+    {{ x.name + ', ' + x.country }}
+  </li>
+</ul>
+
+</div>
+<div ng-app="" ng-controller="customersController"> 
+
+<ul>
+  <li ng-repeat="x in names">
+    {{ x.Name + ', ' + x.Country }}
+  </li>
+</ul>
+
+</div>
+
+<script>
+function customersController($scope,$http) {
+    $http.get("JSON.php")
+    .success(function(response) {$scope.names = response;});
+}
+</script>
+
+
+
+
+
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE student [
+	<!ELEMENT student ( lastname,age,dateborn ) >
+	<!ELEMENT lastname (#PCDATA) >
+	<!ELEMENT age (#PCDATA) >
+	<!ELEMENT dateborn (#PCDATA) >
+]>
+<student>
+	<lastname>Refsnes</lastname>
+	<age>36</age>
+	<dateborn>1970-03-27</dateborn>
+</student>

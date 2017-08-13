@@ -1,0 +1,6 @@
+<!ELEMENT school (name,no,street,city,country)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT no (#PCDATA)>
+<!ELEMENT street (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT country (#PCDATA)>

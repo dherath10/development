@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE address SYSTEM "add.dtd">
+
+<address>
+	<name>Nimal</name>
+	<number>123</number>
+	<street>Reid</street>
+	<city>Colombo</city>
+</address>

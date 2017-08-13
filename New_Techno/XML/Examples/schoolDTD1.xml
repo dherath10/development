@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!DOCTYPE school SYSTEM "schoolDTD1.dtd">
+<school>
+<name>abc</name>
+<no>24</no>
+<street>1st lane</street>
+<city>Colombo</city>
+<country>sri lanka</country>
+</school>

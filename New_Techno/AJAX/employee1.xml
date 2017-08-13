@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ESOFT>
+	<EMPLOYEE>
+		<EID>1</EID>
+		<FNAME>Kumara</FNAME>
+		<LNAME>Sangakkara</LNAME>
+		<ADDRESS>Kandy</ADDRESS>
+		<DESIGNATION>Criketer</DESIGNATION>
+		<YEAR>1977</YEAR>
+	</EMPLOYEE>
+</ESOFT>

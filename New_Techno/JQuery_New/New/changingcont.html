@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+<title>jQuery</title>
+<script type="text/javascript" src="jquery-1.8.1.min.js">
+</script>
+</head>
+<body>
+<h1>Changing Content jQuery</h1>
+<ul id="lis">
+	<li>Here's 1</li>
+	<li>Here's 2</li>
+</ul>
+<script type="text/javascript">
+$(document).ready(function(){
+	$("#lis").append("<li>Here's 3</li>");
+	$("#lis li").each(function(){
+		var existingText=$(this).text().substr(7,1);
+		$(this).text("Item"+existingText);
+	});
+});
+</script>
+</body>
+</html>
+

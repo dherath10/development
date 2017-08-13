@@ -1,0 +1,271 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>Home</title>
+<link rel="stylesheet" href="css/global.css">
+<link rel="stylesheet" href="css/signin.css">
+
+
+  
+  	<link rel="stylesheet" href="css/global2.css">
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+	<script src="http://gsgd.co.uk/sandbox/jquery/easing/jquery.easing.1.3.js"></script>
+	<script src="js/slides.min.jquery.js"></script>
+	<script>
+		$(function(){
+			$('#slides').slides({
+				preload: true,
+				preloadImage: 'img/loading.gif',
+				play: 5000,
+				pause: 2500,
+				hoverPause: true
+			});
+		});
+		
+		
+		/* sign in */
+		
+		$(document).ready(function() {
+	$('a.login-window').click(function() {
+		
+                //Getting the variable's value from a link 
+		var loginBox = $(this).attr('href');
+
+		//Fade in the Popup
+		$(loginBox).fadeIn(300);
+		
+		//Set the center alignment padding + border see css style
+		var popMargTop = ($(loginBox).height() + 24) / 2; 
+		var popMargLeft = ($(loginBox).width() + 24) / 2; 
+		
+		$(loginBox).css({ 
+			'margin-top' : -popMargTop,
+			'margin-left' : -popMargLeft
+		});
+		
+		// Add the mask to body
+		$('body').append('<div id="mask"></div>');
+		$('#mask').fadeIn(300);
+		
+		return false;
+	});
+	
+	// When clicking on the button close or the mask layer the popup closed
+	$('a.close, #mask').live('click', function() { 
+	  $('#mask , .login-popup').fadeOut(300 , function() {
+		$('#mask').remove();  
+	}); 
+	return false;
+	});
+});
+		
+		
+	</script>
+  
+
+
+</head>
+
+<body>
+
+
+<div id="login-box" class="login-popup">
+        <a href="#" class="close"><img src="img/close_pop.png" class="btn_close" title="Close Window" alt="Close" /></a>
+          		<form method="post" class="signin" action="#">
+                <fieldset class="textbox">
+            	<label class="username">
+                <span>Username or email</span>
+                <input id="username" name="username" value="" type="text" autocomplete="on" placeholder="Username">
+                </label>
+                <label class="password">
+                <span>Password</span>
+                <input id="password" name="password" value="" type="password" placeholder="Password">
+                </label>
+                <button class="submit button" type="button">Sign in</button>
+                <p>
+                <a class="forgot" href="#">Forgot your password?</a>
+                </p>        
+                </fieldset>
+          </form>
+</div>
+
+
+
+<table width="1024" border="1" align="center" style="table-layout:fixed; overflow-x:hidden" >
+  <tr>
+  	 <td width="200" rowspan="2"><img src="img/Shalibay New.png" height="89" width="230" /> </td>
+     <td> </td>
+  	 <td colspan="3" height="50"></td>
+  
+  </tr>
+  <tr>
+  
+  	<td></td>
+    <td></td>
+    <td  width="94" height="50" align="right"></td>
+    <td  width="50" height="50" align="left">
+    	<a href="#login-box" class="login-window">Sign Up</a><a> || </a><a href="#login-box" class="login-window">Login 		        / Sign In</a>
+    </td>
+  
+  </tr>
+  
+  <tr>
+  	
+    <td colspan="3">
+    	<div style="background:#000040;" class="box2" style="padding:0px 0px 0px 0px;">
+    		<form action="#" method="post" class="form-wrapper cf" >
+  			<input type="text" placeholder="Search here..." required>
+        	<button type="submit">Search</button>
+      </div>
+	</td>
+    <td colspan="2" align="center" style="padding:10"><div style="background:#000040; padding:40px 15px 35px 15px; width:325px;	        " class="styled-select box2" > 
+    	<select class="form-wrapper2 cf">
+    		<option value="Antiques">Antiques</option>
+  			<option value="Art">Art</option>
+  			<option value="Automobile">Automobile</option>
+  			<option value="Baby Nursery Items">Baby's/Nursery Items</option>
+       		<option value="Books">Books</option>
+        	<option value="Business / Industrial">Business / Industrial</option>
+        	<option value="Cameras / Photo">Cameras / Photo</option>
+        	<option value="Cell Phones / PDAs">Cell Phones / PDAs</option>
+        	<option value="Clothing, Shoes / Accessories">Clothing, Shoes / Accessories</option>
+        	<option value="Coins / Paper Money">Coins / Paper Money</option>
+        	<option value="Collectibles">Collectibles</option>
+        	<option value="Computers / Networking">Computers / Networking</option>
+        	<option value="Crafts">Crafts</option>
+        	<option value="Dolls / Bears">Dolls / Bears</option>
+        	<option value="DVDs / Movies">DVDs / Movies</option>
+        	<option value="Education">Education</option>
+        	<option value="Electronics">Electronics</option>
+        	<option value="Entertainment Memorabilia">Entertainment Memorabilia</option>
+        	<option value="Everything Else">Everything Else</option>
+        	<option value="Furniture">Furniture</option>
+        	<option value="Gift">Gift</option>
+        	<option value="Health / Beauty">Health / Beauty</option>
+        	<option value="Jewelry / Watches">Jewelry / Watches</option>
+        	<option value="Music">Music</option>
+        	<option value="Musical Instruments">Musical Instruments</option>
+        	<option value="Pet Supplies">Pet Supplies</option>
+        	<option value="Real Estate">Real Estate</option>
+        	<option value="Restaurants / Hotels">Restaurants / Hotels</option>
+        	<option value="Sanitary and Bathware">Sanitary and Bathware</option>
+        	<option value="Specialty Services">Specialty Services</option>
+        	<option value="Sporting Goods">Sporting Goods</option>
+        	<option value="Sports Mem, Cards / Fan Shop">Sports Mem, Cards / Fan Shop</option>
+        	<option value="Stamps">Stamps</option>
+        	<option value="Toys / Hobbies">Toys / Hobbies</option>
+        	<option value="Travel">Travel</option>
+        	<option value="Vacancies / Jobs">Vacancies / Jobs</option>
+        	<option value="Video Games">Video Games</option>        
+    	</select></div>
+    </td>
+  </tr>
+  
+  <tr>
+  	
+    <td rowspan="3">
+    
+    <h1>Categories</h1>
+    	<ul type="disc">
+ 			 <a href="#"><div class="box"><li>Antiques</li></div></a>
+             <a href="#"><div class="box"><li>Art</li></div></a>
+             <a href="#"><div class="box"><li>Automobile</li></div></a>
+             <a href="#"><div class="box"><li>Baby's/Nursery Items</li></div></a>
+             <a href="#"><div class="box"><li>Books</li></div></a>
+             <a href="#"><div class="box"><li>Business / Industrial</li></div></a>
+             <a href="#"><div class="box"><li>Cameras / Photo</li></div></a>
+             <a href="#"><div class="box"><li>Cell Phones / PDAs</li></div></a>
+             <a href="#"><div class="box"><li>Clothing,Shoes/Accessories</li></div></a>
+             <a href="#"><div class="box"><li>Coins / Paper Money</li></div></a>
+             <a href="#"><div class="box"><li>Computers / Networking</li></div></a>
+             <a href="#"><div class="box"><li>Crafts</li></div></a>
+             <a href="#"><div class="box"><li>Dolls / Bears</li></div></a>
+             <a href="#"><div class="box"><li>Crafts</li></div></a>
+             <a href="#"><div class="box"><li>Electronics</li></div></a>
+             <a href="#"><div class="box"><li>Entertainment Memorabilia</li></div></a>
+             <a href="#"><div class="box"><li>Everything Else</li></div></a>
+             <a href="#"><div class="box"><li>Furniture</li></div></a>
+             <a href="#"><div class="box"><li>Health / Beauty</li></div></a>
+             <a href="#"><div class="box"><li>Jewelry / Watches</li></div></a>
+             <a href="#"><div class="box"><li>Music</li></div></a>
+             <a href="#"><div class="box"><li>Musical Instruments</li></div></a>
+             <a href="#"><div class="box"><li>Pet Supplies</li></div></a>
+             <a href="#"><div class="box"><li>Real Estate</li></div></a>
+             <a href="#"><div class="box"><li>Restaurants / Hotels</li></div></a>
+             <a href="#"><div class="box"><li>Sanitary and Bathware</li></div></a>
+             <a href="#"><div class="box"><li>Specialty Services</li></div></a>
+             <a href="#"><div class="box"><li>Sporting Goods</li></div></a>
+             <a href="#"><div class="box"><li>Sports Mem,Cards/Fan</li></div></a>
+             <a href="#"><div class="box"><li>Stamps</li></div></a>
+             <a href="#"><div class="box"><li>Toys / Hobbies</li></div></a>
+             <a href="#"><div class="box"><li>Travel</li></div></a>
+             <a href="#"><div class="box"><li>Vacancies / Jobs</li></div></a>
+             <a href="#"><div class="box"><li>Video Games</li></div></a>
+             
+ 			 
+		</ul>
+
+    
+    
+     </td>
+     <td colspan="4" align="center" valign="top">
+    
+     	<div id="container">
+			<div id="example">
+			
+				<div id="slides">
+					<div class="slides_container">
+						<a href="http://www.flickr.com/photos/jliba/4665625073/" title="145.365 - Happy Bokeh Thursday! | 		 							Flickr - Photo Sharing!" target="_blank"><img src= 		  "http://slidesjs.com/examples/standard/img/slide-1.jpg" width="770" height="270" alt="Slide 1"></a>
+						<a href="http://www.flickr.com/photos/stephangeyer/3020487807/" title="Taxi | Flickr - Photo Sharing!" target="_blank"><img src="http://slidesjs.com/examples/standard/img/slide-2.jpg" width="770" height="270" alt="Slide 2"></a>
+						<a href="http://www.flickr.com/photos/childofwar/2984345060/" title="Happy Bokeh raining Day | Flickr - Photo Sharing!" target="_blank"><img src="http://slidesjs.com/examples/standard/img/slide-3.jpg" width="770" height="270" alt="Slide 3"></a>
+						<a href="http://www.flickr.com/photos/b-tal/117037943/" title="We Eat Light | Flickr - Photo Sharing!" target="_blank"><img src="http://slidesjs.com/examples/standard/img/slide-4.jpg" width="770" height="270" alt="Slide 4"></a>
+						<a href="http://www.flickr.com/photos/bu7amd/3447416780/" title="“I must go down to the sea again, to the lonely sea and the sky; and all I ask is a tall ship and a star to steer her by.” | Flickr - Photo Sharing!" target="_blank"><img src="http://slidesjs.com/examples/standard/img/slide-5.jpg" width="770" height="270" alt="Slide 5"></a>
+						<a href="http://www.flickr.com/photos/streetpreacher/2078765853/" title="twelve.inch | Flickr - Photo Sharing!" target="_blank"><img src="http://slidesjs.com/examples/standard/img/slide-6.jpg" width="770" height="270" alt="Slide 6"></a>
+						<a href="http://www.flickr.com/photos/aftab/3152515428/" title="Save my love for loneliness | Flickr - Photo Sharing!" target="_blank"><img src="http://slidesjs.com/examples/standard/img/slide-7.jpg" width="770" height="270" alt="Slide 7"></a>
+				</div>
+				<!--<a href="#" class="prev"><img src="img/arrow-prev.png" width="24" height="43" alt="Arrow Prev"></a>
+				<a href="#" class="next"><img src="img/arrow-next.png" width="24" height="43" alt="Arrow Next"></a>-->
+			</div>
+			<img src="img/example-frame.png" width="739" height="341" alt="Example Frame" id="frame">
+		</div>
+		
+	</div>
+    
+</td>
+  </tr>
+  
+   <tr>
+  	
+    <td></td>
+    <td colspan="3">
+    	<div class="box4"></div>
+        	<div class="box3"></div>
+        	<div class="box3"></div>
+            <div class="box3"></div> 
+    </td>
+    
+  </tr>
+  
+  <tr>
+  	
+    <td></td>
+    <td colspan="3">
+    	<div class="box4"></div>
+        	<div class="box3"></div>
+            <div class="box3"></div>
+            <div class="box3"></div> 
+    </td>
+    
+  </tr>
+</table>
+
+
+
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<script>
+function setImage(file) {
+    if(document.all)
+        document.getElementById('prevImage').src = file.value;
+    else
+        document.getElementById('prevImage').src = file.files.item(0).getAsDataURL();
+    if(document.getElementById('prevImage').src.length > 0) 
+        document.getElementById('prevImage').style.display = 'block';
+}
+
+</script>
+</head>
+
+<body>
+<img id="prevImage"  src=""  alt="" width="313" height="315" />
+<input name="photo1" id="photo1" type="file" onchange="setImage(this);"  value="" class="input" size="17"/>
+</body>
+</html>

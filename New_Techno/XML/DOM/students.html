@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Students</h1>
+<div>
+<b>Student ID:</b> <span id="sid"></span><br>
+<b>Student Name:</b> <span id="sname"></span><br>
+
+</div>
+
+<script>
+if (window.XMLHttpRequest)
+  {// code for IE7+, Firefox, Chrome, Opera, Safari
+  xmlhttp=new XMLHttpRequest();
+  }
+else
+  {// code for IE6, IE5
+  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+xmlhttp.open("GET","students.xml",false);
+xmlhttp.send();
+xmlDoc=xmlhttp.responseXML;
+
+document.getElementById("sid").innerHTML=
+xmlDoc.getElementsByTagName("id")[0].childNodes[0].nodeValue;
+document.getElementById("sname").innerHTML=
+xmlDoc.getElementsByTagName("name")[0].childNodes[0].nodeValue;
+
+</script>
+
+</body>
+</html>
+
+</body>
+</html>

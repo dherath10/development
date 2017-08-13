@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ESOFT>
+	<EMPLOYEE>
+		<EID>1</EID>
+		<FNAME>Kumara</FNAME>
+		<LNAME>Sangakkara</LNAME>
+		<ADDRESS>Kandy</ADDRESS>
+		<DESIGNATION>Criketer</DESIGNATION>
+		<YEAR>1977</YEAR>
+	</EMPLOYEE>
+	<EMPLOYEE>
+		<EID>2</EID>
+		<FNAME>Mahela</FNAME>
+		<LNAME>Jayawardane</LNAME>
+		<ADDRESS>Colombo</ADDRESS>
+		<DESIGNATION>Criketer</DESIGNATION>
+		<YEAR>1976</YEAR>
+	</EMPLOYEE>
+		<EMPLOYEE>
+		<EID>3</EID>
+		<FNAME>Dilshan</FNAME>
+		<LNAME>Thilakarathne</LNAME>
+		<ADDRESS>Kaluthara</ADDRESS>
+		<DESIGNATION>Criketer</DESIGNATION>
+		<YEAR>1977</YEAR>
+	</EMPLOYEE>
+	<EMPLOYEE>
+		<EID>4</EID>
+		<FNAME>Upul</FNAME>
+		<LNAME>Tharanga</LNAME>
+		<ADDRESS>Galle</ADDRESS>
+		<DESIGNATION>Criketer</DESIGNATION>
+		<YEAR>1982</YEAR>
+	</EMPLOYEE>
+		<EMPLOYEE>
+		<EID>5</EID>
+		<FNAME>Malintha</FNAME>
+		<LNAME>Warnapura</LNAME>
+		<ADDRESS>Colombo</ADDRESS>
+		<DESIGNATION>Criketer</DESIGNATION>
+		<YEAR>1980</YEAR>
+	</EMPLOYEE>
+</ESOFT>

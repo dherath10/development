@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Login</title>
+<script type="text/javascript">
+
+function setCookie(cname,cvalue,exdays) {
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays*24*60*60*1000));
+    var expires = "expires=" + d.toGMTString();
+    alert(document.cookie = cname+"="+cvalue+"; "+expires);
+}
+
+
+function checkCookie() {
+    
+       user = prompt("Please enter your name:","");
+       if (user != "" && user != null) {
+           setCookie("username", user, 30);
+       }
+    
+}
+</script>
+</head>
+
+<body onLoad="checkCookie()">
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="bookxsl.xsl"?>
+<bookStore>
+	<book ID="1007" cat="CS">
+        <bookTitle>Python</bookTitle>
+		<publisher>Sarasavi</publisher>
+		<ISBN>10005677-3</ISBN>
+        <pubDate>2009-7-6</pubDate>
+		<author AID="1">
+			<fullname>A.D Del</fullname>
+		</author>
+		<author AID="2">
+			<fullname>G.I May</fullname>
+		</author>
+     </book>
+     <book ID="1008" cat="CS">
+    	
+        <bookTitle>PHP</bookTitle>
+		<publisher>PrinceTon</publisher>
+		<ISBN>78655677-3</ISBN>
+        <pubDate>2010-7-6</pubDate>
+		<author AID="1">
+			<fullname>A.D Del</fullname>
+		</author>
+     </book>
+</bookStore>

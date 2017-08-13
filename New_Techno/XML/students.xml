@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<institute name="esoft">
+	<student>
+		<sid>1</sid>
+		<sname>Amal Perera</sname>
+		<sadd>Colombo</sadd>
+		<sage>22</sage>
+	</student>
+	<student>
+		<sid>2</sid>
+		<sname>Indika Fernando</sname>
+		<sadd>Kandy</sadd>
+		<sage>29</sage>
+	</student>
+	<student>
+		<sid>3</sid>
+		<sname>Kapila Jayamanna</sname>
+		<sadd>Galle</sadd>
+		<sage>30</sage>
+	</student>
+</institute>

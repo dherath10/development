@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE address [
+	<!ELEMENT address ( name,( number | housename ), street, city ) >
+	<!ELEMENT name (#PCDATA) >
+	<!ELEMENT number (#PCDATA) >
+	<!ELEMENT housename (#PCDATA) >
+	<!ELEMENT street (#PCDATA) >
+	<!ELEMENT city (#PCDATA) >
+]>
+
+<address>
+	<name>Nimal</name>
+	<housename>123</housename>
+	<street>Reid</street>
+	<city>Colombo</city>
+</address>

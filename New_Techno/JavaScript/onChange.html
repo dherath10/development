@@ -1,0 +1,20 @@
+<html>
+<script>
+	function set(a){
+		document.getElementById("dis").style.color="blue";
+		document.getElementById("dis").innerHTML=a;
+		document.getElementById("dis").style.fontStyle="italic";
+		document.getElementById("dis").style.fontWeight="bold";
+		document.getElementById("dis").style.textAlign="center";
+	}
+</script>
+<body>
+
+<p id="dis">JavaScript</p>
+<select name="sel" onChange="set(this.value)">
+  <option value="PHP">PHP</option>
+  <option value="MySQL">MySQL</option>
+
+</select>
+</body>
+</html>

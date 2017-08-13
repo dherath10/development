@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<?DOCTYPE Book SYSTEM "book.dtd"?>
+<?xml-stylesheet type="text/xsl" href="book.xsl"?>
+<Book>
+  <book isbn="0137001312" edition="1st">
+	<title>JavaScript for Programmers</title>
+	<author>
+		<name>
+			<Last_name>Deitel</Last_name>
+			<First_name>Paul</First_name>
+		</name>
+		<email>deitel@deitel.com</email>
+		<bio>Paul J. Deitel</bio>
+	</author>
+	<author>
+		<name>
+			<Last_name>Deitel</Last_name>
+			<First_name>Harvey</First_name>
+		</name>
+		<email>deitel@deitel.com</email>
+		<bio>Chairman and Chief </bio>
+ 	</author>
+	<book_url page="http://www.deitel.com/books"/>
+	<publisher>Prentice Hall</publisher>
+	<review>Demonstrating not only how  </review>
+	<review>You may not </review>
+  </book>
+</Book>
