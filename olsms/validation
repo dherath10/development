@@ -1,0 +1,12 @@
+Validation
+1)First Name empty and alpha
+2)Last Name empty and alpha
+3)Validate user name (Server Side Validation)
+4)Email empty and validity
+5)DOB empty and 18+
+6)NIC empty and validate based on DOB
+7)Telephone No 10 digits
+8)Gender Empty
+9)Role Name empty
+10) if image is existing then check the extension (jpg,png,gif)
+
