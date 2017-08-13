@@ -1,0 +1,29 @@
+div#main{
+    width: 100%;
+    margin: 0px;
+    
+}
+div#header{
+    height:100px;
+}
+div#navi{
+    height:50px;
+    
+}
+div#contents{
+    min-height:400px;
+    
+}
+div#footer{
+    height:50px;
+}
+.hea{
+    font-size: 32px; 
+    font-weight: bold; 
+    text-align: center; 
+    text-transform: uppercase;
+    padding-top: 20px;
+    color:#FFF;
+}
+.foo{text-align: center; font-style: italic; font-size:-1px;color:#FFF;}
+.al{text-align: center}

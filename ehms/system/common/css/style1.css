@@ -1,0 +1,34 @@
+/*CSS RESET */
+*{margin:0; padding:0; outline:0; font-family:Arial, Helvetica, sans-serif;}
+
+	 html,body{padding:0;  margin:0; outline:0;}
+
+	 img{border:none;}
+
+	 a{text-decoration:none;}
+
+	 ul{list-style:none;}
+ 
+.full_wrapper{width:100%; height:auto;}
+
+.header{width:100%; height:50px; background-color:#DD7617;}
+
+.logo{height:100px;width:75;}
+
+.title{font:"Times New Roman", Times, serif; background-color:#DD7617;}
+.form_content{width:350px; height:auto; padding-top:20px; padding-bottom:20px; margin:0 auto; border:1px solid #666666; padding-left:60px; margin-bottom:50px; margin-top:50px; border-radius:5px; border:1px solid;}
+
+.form_content input[type="text"]{width:275px; height:35px; border-radius:3px; margin-bottom:15px; padding:7px;}
+
+.form_content input[type="password"]{width:275px; height:35px; border-radius:3px; margin-bottom:15px; padding:7px;}
+
+.form_content input[type="checkbox"] {margin-left: 88px;margin-right: 10px;}
+
+.form_content input[type="submit"] {display:block; margin-left:100px; margin-top:25px; width:80px; height:35px;}
+
+.form_content input[type="submit"]:hover {border:1px solid black;}
+
+.footer{width:100%; height:50px; background-color:#DD7617; bottom:0; position:absolute; bottom margin-bottom:0; padding-bottom:0;}
+.alert{color:#FF0000}
+
+
